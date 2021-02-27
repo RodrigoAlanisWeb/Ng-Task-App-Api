@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const db = mongoose.connect("mongodb://Rodriigo:Arkpexps4@cluster0.sy38t.mongodb.net/ng-task-app",{
+const db = mongoose.connect("mongodb+srv://Rodriigo:Arkpexps4@cluster0.sy38t.mongodb.net/ng-task-app",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(db => {
